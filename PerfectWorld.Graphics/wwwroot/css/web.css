@@ -1,0 +1,185 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/login.jpg) no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden
+}
+
+#particles-js {
+    height: 100%
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: #0d1822;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #0d1822 !important;
+    opacity: 0.9
+}
+
+.RegisterBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    min-height: 200px;
+    background: #000000;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #0d1822 !important;
+    opacity: 0.9
+}
+
+.user {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #59238F;
+    text-align: center
+}
+h4 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #59238F;
+    text-align: center
+}
+
+.login-container input {
+    width: 100%;
+    margin-bottom: 20px
+}
+.RegisterBox input {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+    .login-container input[type="text"],
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+        border: none;
+        border-bottom: 2px solid #262626;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        background: transparent;
+        font-size: 16px;
+        padding-left: 20px;
+        box-sizing: border-box
+    }
+.RegisterBox input[type="text"],
+.RegisterBox input[type="email"],
+.RegisterBox input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+        .login-container input[type="text"]:hover,
+        .login-container input[type="email"]:hover,
+        .login-container input[type="password"]:hover {
+            color: #42F3FA;
+            border: 1px solid #42F3FA;
+            box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
+        }
+
+        .login-container input[type="text"]:focus,
+        .login-container input[type="email"]:focus,
+        .login-container input[type="password"]:focus {
+            border-bottom: 2px solid #42F3FA
+        }
+
+.RegisterBox input[type="text"]:hover,
+.RegisterBox input[type="email"]:hover,
+.RegisterBox input[type="password"]:hover {
+    color: #42F3FA;
+    border: 1px solid #42F3FA;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
+}
+
+.RegisterBox input[type="text"]:focus,
+.RegisterBox input[type="email"]:focus,
+.RegisterBox input[type="password"]:focus {
+    border-bottom: 2px solid #42F3FA
+}
+
+.inputBox {
+    position: relative
+}
+
+    .inputBox span {
+        position: absolute;
+        top: 10px;
+        color: #262626
+    }
+
+.RegisterBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #59238F;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer
+}
+
+.RegisterBox a {
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block
+}
+.login-container input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #59238F;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer
+}
+
+.login-container a {
+    color: #62586c;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block
+}
+
+a:hover {
+    color: #00ffff
+}
+
+p {
+    color: #0000ff
+}

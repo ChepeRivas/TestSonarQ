@@ -1,0 +1,56 @@
+﻿@model PerfectWorld.Data.Dtos.VMUsers
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_LayoutLogin";
+}
+<div class="RegisterBox">
+    <h2>Gods.Perfect World</h2>
+    <h4>Sign up here</h4>
+    <form id="pwform">
+        <div class="inputBox ">
+
+                <label>User</label>
+                <input autocomplete="off" asp-for="Usuario" placeholder="User">
+            <br />
+
+
+                <label>Email</label>
+                <input autocomplete="off" asp-for="Correo" placeholder="Email">
+            <br />
+
+                <label>Password</label>
+                <input type="password" asp-for="Contrasena" placeholder="Password">
+            <br />
+
+          
+        </div>
+        <input type="submit" name="" value="Register" style="margin-left:35%;width:40%">
+
+    </form>
+    <div class="text-center">
+    </div>
+</div>
+
+    <script>
+        $().ready(function ($) {
+
+
+            if (screen.width < 1024) {
+                $(".RegisterBox").css('padding', '20');
+
+            }
+            else {
+
+                if (screen.width < 1280) {
+                    $(".RegisterBox").width(450)
+                }
+                else {
+                    $(".RegisterBox").width(550)
+                }
+            }
+        });
+       
+    </script>
+
+
+<script src="~/js/Login/jquery.account.register.js"></script>

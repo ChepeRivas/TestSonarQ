@@ -1,0 +1,20 @@
+﻿/*
+    Navbar link de referencia:
+    https://webdesign.tutsplus.com/es/tutorials/how-to-make-the-bootstrap-navbar-dropdown-work-on-hover--cms-33840
+*/
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
