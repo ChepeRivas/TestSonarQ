@@ -4,6 +4,13 @@
     SonarCloud: 'SonarQ'
     organization: 'perfectw'
     scannerMode: 'MSBuild'
+    projectKey: 'PerfectW_TestSonarQ'
+    projectName: 'TestSonarQ'
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarQ'
+    organization: 'perfectw'
+    scannerMode: 'MSBuild'
     projectKey: 'TestSonarQ'
     projectName: 'TestSonarQ'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
